@@ -15,7 +15,7 @@ $(document).ready(function(){
         $("#message").val("");
 
         //send message
-        $.post( "http://localhost:5000/message", { message } );
+        $.post( "http://chat-app-anon.herokuapp.com/message", { message } );
     });
 
     function onMessageAdded(data) {
